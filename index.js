@@ -49,8 +49,8 @@ function onBuyClicked() {
         {
             supportedMethods: ['https://tez.google.com/pay'],
             data: {
-                pa: 'vaseegrahveda@kvb',
-                pn: 'Vaseegrah Veda',
+                pa: 'edu.kamesh@oksbi',
+                pn: 'Kamesh',
                 tr: '1894ABCD',  // Your custom transaction reference ID
                 url: 'https://google.com',
                 mc: '5799', //Your merchant category code
