@@ -10,14 +10,18 @@ body {
 button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #4285F4;
+    background-color: #5f6368; /* Google Pay's primary color */
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
+    /* Additional styles for Google Pay button */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Optional: Add shadow */
+    font-weight: bold; /* Optional: Adjust font weight */
+    text-transform: uppercase; /* Optional: Uppercase text */
 }
 
 button:hover {
-    background-color: #357AE8;
+    background-color: #4c4f54; /* Darker shade on hover */
 }
