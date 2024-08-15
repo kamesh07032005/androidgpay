@@ -49,7 +49,7 @@ function onBuyClicked() {
         {
             supportedMethods: ['https://tez.google.com/pay'],
             data: {
-                pa: 'edu.kamesh@ok.sbi',
+                pa: 'edu.kamesh@oksbi',
                 pn: 'Kamesh',
                 tr: '1894ABCD',  // Your custom transaction reference ID
                 url: 'https://google.com',
