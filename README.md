@@ -1,5 +1,3 @@
-
-
 ```markdown
 # Google Pay Integration
 
@@ -23,8 +21,8 @@ To get started with this project, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/google-pay-integration.git
-   cd google-pay-integration
+   git clone https://github.com/kamesh07032005/androidgpay
+   cd androidgpay
    ```
 
 2. **Open the Project**:
@@ -52,7 +50,7 @@ You can modify the following fields in the `index.js` file to customize the paym
    - **Location**: Line 31
    - **Fields**: 
      - `pa: 'your merchant vpa id'`
-     - `pn: 'merchat name'`
+     - `pn: 'merchant name'`
      - `mc: 'merchant id'`
    - **Description**: These fields represent the merchant's payment address, name, and category code. Update these values to your own merchant details.
 
@@ -85,6 +83,12 @@ You can modify the following fields in the `index.js` file to customize the paym
 
 Contributions are welcome! Please submit a pull request or open an issue to discuss any changes.
 
+## Links
 
+- **Demo**: [https://gpaygoogle.netlify.app/](https://gpaygoogle.netlify.app/)
+- **Google Official Documentation**: [https://developers.google.com/pay/india/api/web/googlepay-business](https://developers.google.com/pay/india/api/web/googlepay-business)
 
 This README file now includes specific fields that can be modified to customize the integration to your needs.
+```
+
+This version now includes the demo link and the official Google documentation link for further reference.
